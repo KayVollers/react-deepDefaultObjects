@@ -8,6 +8,6 @@ test/
 yarn-error.log
 yarn.lock
 
-webpack.common.json
+webpack.common.js
 webpack.dev.js
 webpack.prod.js
