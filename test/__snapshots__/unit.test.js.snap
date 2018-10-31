@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stateful react component 1`] = `
+<div>
+  Stateful 
+  <p />
+   
+  {
+	"originMessage": "unchanged",
+	"originNested": {
+		"originMessage": "unchanged"
+	},
+	"nestedMessages": {
+		"nestMessage": "unchanged",
+		"originNestMessage": "unchanged",
+		"originNestArray": [
+			"unchanged"
+		],
+		"defaultNestMessage": "default"
+	},
+	"defaultMessage": "default"
+}
+</div>
+`;
+
+exports[`stateless react component 1`] = `
+<div>
+  Stateless 
+  <p />
+   
+  {
+	"originMessage": "unchanged",
+	"originNested": {
+		"originMessage": "unchanged"
+	},
+	"nestedMessages": {
+		"nestMessage": "unchanged",
+		"originNestMessage": "unchanged",
+		"originNestArray": [
+			"unchanged"
+		],
+		"defaultNestMessage": "default"
+	},
+	"defaultMessage": "default"
+}
+</div>
+`;
