@@ -1,3 +1,8 @@
+## [1.0.2] 2018-11-01
+
+### Fixed
+- missing repository links
+
 ## [1.0.1] 2018-10-31
 
 ### Fixed

@@ -2,19 +2,24 @@
   "name": "react-deepdefaultobjects",
   "version": "1.0.1",
   "description": "Provides a HOC to deeply merge default property objects",
+  "author": "Kay Vollers",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/KayVollers/react-deepDefaultObjects"
+  },
+  "bugs": "https://github.com/KayVollers/react-deepDefaultObjects/issues",
+  "keywords": [
+    "react",
+    "HOC",
+    "defaultProps"
+  ],
   "main": "dist/main.js",
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [
-    "react",
-    "HOC",
-    "defaultProps"
-  ],
-  "author": "Kay Vollers",
-  "license": "MIT",
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
