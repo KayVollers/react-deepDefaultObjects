@@ -7,10 +7,6 @@ const DeepDefaultObjects = (WrappedComponent) => {
 
             this.deepCompare = this.deepCompare.bind(this);
         }
-        // never render again
-        shouldComponentUpdate() {
-            return false;
-        }
         isTrueObject(data) {
             return Object.prototype.toString.call(data) === '[object Object]';
         }
