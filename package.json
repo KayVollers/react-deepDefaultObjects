@@ -1,6 +1,6 @@
 {
   "name": "react-deepdefaultobjects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides a HOC to deeply merge default property objects",
   "author": "Kay Vollers",
   "license": "MIT",
